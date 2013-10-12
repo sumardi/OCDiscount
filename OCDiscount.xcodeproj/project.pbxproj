@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FA1AB291809B50C002A3D8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FA1AB271809B50C002A3D8C /* InfoPlist.strings */; };
+		9FA1AB2B1809B50C002A3D8C /* OCDiscount_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1AB2A1809B50C002A3D8C /* OCDiscount_Tests.m */; };
+		9FA1AB331809B52A002A3D8C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA1AB321809B52A002A3D8C /* XCTest.framework */; };
+		9FA1AB341809B541002A3D8C /* NSString+Markdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA90253180976C800230823 /* NSString+Markdown.m */; };
+		9FA1AB351809B5B3002A3D8C /* libdiscount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA902551809845B00230823 /* libdiscount.a */; };
+		9FA1AB361809B5B8002A3D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA9023A180975E800230823 /* Foundation.framework */; };
 		9FA9023B180975E800230823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA9023A180975E800230823 /* Foundation.framework */; };
 		9FA9023E180975E800230823 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9023D180975E800230823 /* main.m */; };
 		9FA90242180975E800230823 /* OCDiscount.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9FA90241180975E800230823 /* OCDiscount.1 */; };
 		9FA90254180976C800230823 /* NSString+Markdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA90253180976C800230823 /* NSString+Markdown.m */; };
 		9FA902561809845B00230823 /* libdiscount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA902551809845B00230823 /* libdiscount.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FA1AB2D1809B50C002A3D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FA9022F180975E800230823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA90236180975E800230823;
+			remoteInfo = OCDiscount;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		9FA90235180975E800230823 /* CopyFiles */ = {
@@ -28,6 +44,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9FA1AB211809B50C002A3D8C /* OCDiscount Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCDiscount Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA1AB261809B50C002A3D8C /* OCDiscount Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCDiscount Tests-Info.plist"; sourceTree = "<group>"; };
+		9FA1AB281809B50C002A3D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FA1AB2A1809B50C002A3D8C /* OCDiscount_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDiscount_Tests.m; sourceTree = "<group>"; };
+		9FA1AB2C1809B50C002A3D8C /* OCDiscount Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCDiscount Tests-Prefix.pch"; sourceTree = "<group>"; };
+		9FA1AB321809B52A002A3D8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9FA90237180975E800230823 /* OCDiscount */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCDiscount; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA9023A180975E800230823 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9FA9023D180975E800230823 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +68,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9FA1AB1E1809B50C002A3D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA1AB361809B5B8002A3D8C /* Foundation.framework in Frameworks */,
+				9FA1AB351809B5B3002A3D8C /* libdiscount.a in Frameworks */,
+				9FA1AB331809B52A002A3D8C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9FA90234180975E800230823 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,10 +90,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9FA1AB241809B50C002A3D8C /* OCDiscount Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9FA1AB2A1809B50C002A3D8C /* OCDiscount_Tests.m */,
+				9FA1AB251809B50C002A3D8C /* Supporting Files */,
+			);
+			path = "OCDiscount Tests";
+			sourceTree = "<group>";
+		};
+		9FA1AB251809B50C002A3D8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FA1AB261809B50C002A3D8C /* OCDiscount Tests-Info.plist */,
+				9FA1AB271809B50C002A3D8C /* InfoPlist.strings */,
+				9FA1AB2C1809B50C002A3D8C /* OCDiscount Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9FA9022E180975E800230823 = {
 			isa = PBXGroup;
 			children = (
 				9FA9023C180975E800230823 /* OCDiscount */,
+				9FA1AB241809B50C002A3D8C /* OCDiscount Tests */,
 				9FA90239180975E800230823 /* Frameworks */,
 				9FA90238180975E800230823 /* Products */,
 			);
@@ -71,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				9FA90237180975E800230823 /* OCDiscount */,
+				9FA1AB211809B50C002A3D8C /* OCDiscount Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +131,7 @@
 		9FA90239180975E800230823 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FA1AB321809B52A002A3D8C /* XCTest.framework */,
 				9FA902551809845B00230823 /* libdiscount.a */,
 				9FA9023A180975E800230823 /* Foundation.framework */,
 			);
@@ -122,6 +176,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9FA1AB201809B50C002A3D8C /* OCDiscount Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA1AB311809B50C002A3D8C /* Build configuration list for PBXNativeTarget "OCDiscount Tests" */;
+			buildPhases = (
+				9FA1AB1D1809B50C002A3D8C /* Sources */,
+				9FA1AB1E1809B50C002A3D8C /* Frameworks */,
+				9FA1AB1F1809B50C002A3D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FA1AB2E1809B50C002A3D8C /* PBXTargetDependency */,
+			);
+			name = "OCDiscount Tests";
+			productName = "OCDiscount Tests";
+			productReference = 9FA1AB211809B50C002A3D8C /* OCDiscount Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9FA90236180975E800230823 /* OCDiscount */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FA90245180975E800230823 /* Build configuration list for PBXNativeTarget "OCDiscount" */;
@@ -147,6 +219,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Software Machine Development";
+				TargetAttributes = {
+					9FA1AB201809B50C002A3D8C = {
+						TestTargetID = 9FA90236180975E800230823;
+					};
+				};
 			};
 			buildConfigurationList = 9FA90232180975E800230823 /* Build configuration list for PBXProject "OCDiscount" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -161,11 +238,32 @@
 			projectRoot = "";
 			targets = (
 				9FA90236180975E800230823 /* OCDiscount */,
+				9FA1AB201809B50C002A3D8C /* OCDiscount Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		9FA1AB1F1809B50C002A3D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA1AB291809B50C002A3D8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		9FA1AB1D1809B50C002A3D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA1AB341809B541002A3D8C /* NSString+Markdown.m in Sources */,
+				9FA1AB2B1809B50C002A3D8C /* OCDiscount_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9FA90233180975E800230823 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,7 +275,70 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9FA1AB2E1809B50C002A3D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FA90236180975E800230823 /* OCDiscount */;
+			targetProxy = 9FA1AB2D1809B50C002A3D8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FA1AB271809B50C002A3D8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FA1AB281809B50C002A3D8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		9FA1AB2F1809B50C002A3D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCDiscount Tests/OCDiscount Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OCDiscount Tests/OCDiscount Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/smd/Workspace/GithubClone/OCDiscount,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9FA1AB301809B50C002A3D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCDiscount Tests/OCDiscount Tests-Prefix.pch";
+				INFOPLIST_FILE = "OCDiscount Tests/OCDiscount Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/smd/Workspace/GithubClone/OCDiscount,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		9FA90243180975E800230823 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -277,6 +438,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9FA1AB311809B50C002A3D8C /* Build configuration list for PBXNativeTarget "OCDiscount Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA1AB2F1809B50C002A3D8C /* Debug */,
+				9FA1AB301809B50C002A3D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		9FA90232180975E800230823 /* Build configuration list for PBXProject "OCDiscount" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -293,6 +462,7 @@
 				9FA90247180975E800230823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
