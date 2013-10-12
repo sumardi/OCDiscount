@@ -1,5 +1,7 @@
 # Discount Markdown Processor for iOS and OS X
 
+[![Build Status](https://travis-ci.org/sumardi/OCDiscount.png)](https://travis-ci.org/sumardi/OCDiscount)
+
 Discount is an implementation of John Gruber's Markdown markup language in C. It
 implements all of the language described in [the markdown syntax document][1] and
 passes the [Markdown 1.0 test suite][2].
