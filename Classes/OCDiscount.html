@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>NSString(Markdown) Category Reference</title>
+		<title>OCDiscount Class Reference</title>
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
@@ -16,7 +16,7 @@
 			</div>
 			
 			<div id="title" role="banner">
-				<h1 class="hideInXcode">NSString(Markdown) Category Reference</h1>
+				<h1 class="hideInXcode">OCDiscount Class Reference</h1>
 			</div>
 			<ul id="headerButtons" role="toolbar">
 				<li id="toc_button">
@@ -39,13 +39,15 @@
 	
 	
 	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/convertMarkdownFileAtPath:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ convertMarkdownFileAtPath:error:</option>
+	
+	<option value="//api/name/convertMarkdownFileAtURL:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ convertMarkdownFileAtURL:error:</option>
+	
+	<option value="//api/name/convertMarkdownString:">&nbsp;&nbsp;&nbsp;&nbsp;+ convertMarkdownString:</option>
 	
 	
-	<option value="instance_methods">Instance Methods</option>
-	
-	<option value="//api/name/htmlStringFromMarkdown">&nbsp;&nbsp;&nbsp;&nbsp;- htmlStringFromMarkdown</option>
-	
-	<option value="//api/name/htmlWithMarkdown">&nbsp;&nbsp;&nbsp;&nbsp;- htmlWithMarkdown</option>
 	
 	
 	
@@ -71,22 +73,24 @@
 
 
 
-
-
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/htmlStringFromMarkdown">htmlStringFromMarkdown</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/convertMarkdownFileAtPath:error:">convertMarkdownFileAtPath:error:</a></span></li>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/htmlWithMarkdown">htmlWithMarkdown</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/convertMarkdownFileAtURL:error:">convertMarkdownFileAtURL:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/convertMarkdownString:">convertMarkdownString:</a></span></li>
 	
 </ul></li>
+
+
 
 
 			</ul>
 		</nav>
 		<article>
 			<div id="contents" class="isShowingTOC" role="main">
-				<a title="NSString(Markdown) Category Reference" name="top"></a>
+				<a title="OCDiscount Class Reference" name="top"></a>
 				<div class="main-navigation navigation-top">
 					<ul>
 	<li><a href="../index.html">Index</a></li>
@@ -95,15 +99,18 @@
 				</div>
 				<div id="header">
 					<div class="section-header">
-						<h1 class="title title-header">NSString(Markdown) Category Reference</h1>
+						<h1 class="title title-header">OCDiscount Class Reference</h1>
 					</div>		
 				</div>
 				<div id="container">	
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
 	<td class="specification-title">Declared in</td>
-	<td class="specification-value">NSString+Markdown.h</td>
+	<td class="specification-value">OCDiscount.h</td>
 </tr>
 						</tbody></table></div>
 					
@@ -113,7 +120,7 @@
 					<div class="section section-overview">
 						<a title="Overview" name="overview"></a>
 						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p><code>NSString+Markdown</code> is a <code>NSString</code> category to convert markdown string to an HTML string.</p>
+						<p>The <code>OCDiscount</code> class is used to convert markdown string to an HTML string.</p>
 					</div>
 					
 					
@@ -131,13 +138,19 @@
 						<ul class="task-list">
 							<li>
 	<span class="tooltip">
-		<code><a href="#//api/name/htmlWithMarkdown">&ndash;&nbsp;htmlWithMarkdown</a></code>
+		<code><a href="#//api/name/convertMarkdownFileAtPath:error:">+&nbsp;convertMarkdownFileAtPath:error:</a></code>
 	</span>
 	
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/htmlStringFromMarkdown">&ndash;&nbsp;htmlStringFromMarkdown</a></code>
+		<code><a href="#//api/name/convertMarkdownFileAtURL:error:">+&nbsp;convertMarkdownFileAtURL:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/convertMarkdownString:">+&nbsp;convertMarkdownString:</a></code>
 	</span>
 	
 	
@@ -152,40 +165,53 @@
 					
 					
 					
-					
-					
 					<div class="section section-methods">
-						<a title="Instance Methods" name="instance_methods"></a>
-						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
 						
 						<div class="section-method">
-	<a name="//api/name/htmlStringFromMarkdown" title="htmlStringFromMarkdown"></a>
-	<h3 class="subsubtitle method-title">htmlStringFromMarkdown</h3>
+	<a name="//api/name/convertMarkdownFileAtPath:error:" title="convertMarkdownFileAtPath:error:"></a>
+	<h3 class="subsubtitle method-title">convertMarkdownFileAtPath:error:</h3>
 	
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Converts the given markdown string to an HTML string.</p>
+		<p>Converts the markdown in a file at the given path to an HTML string.</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (NSString *)htmlStringFromMarkdown</code></div>
+	<div class="method-subsection method-declaration"><code>+ (NSString *)convertMarkdownFileAtPath:(NSString *)<em>path</em> error:(NSError **)<em>error</em></code></div>
 
     
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>path</em></dt>
+			<dd><p>The path of the file whose contents you want.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The error that was encountered.</p></dd>
+		</dl>
+		
+	</div>
 	
 	
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>Returns an HTML string, or <code>nil</code> if the string couln&rsquo;t be converted.</p>
+		<p>Returns an HTML string or <code>nil</code> if the string couln&rsquo;t be converted.</p>
 	</div>
 	
 	
 	
 	<div class="method-subsection availability">
 		<h4 class="method-subtitle parameter-title">Availability</h4>
-		<p>Available in 0.2.0 or later</p>
+		<p>Available in 0.2.0 or later.</p>
 	</div>
 	
 	
@@ -194,29 +220,108 @@
 	
 	
 	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/convertMarkdownFileAtURL:error:">+ convertMarkdownFileAtURL:error:</a></p></code></li>
+			
+		</ul>
+	</div>
+	
 	
 	
 	<div class="method-subsection declared-in-section">
 		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">NSString+Markdown.h</code><br />
+		<code class="declared-in-ref">OCDiscount.h</code><br />
 	</div>				
 	
 	
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/htmlWithMarkdown" title="htmlWithMarkdown"></a>
-	<h3 class="subsubtitle method-title">htmlWithMarkdown</h3>
+	<a name="//api/name/convertMarkdownFileAtURL:error:" title="convertMarkdownFileAtURL:error:"></a>
+	<h3 class="subsubtitle method-title">convertMarkdownFileAtURL:error:</h3>
 	
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Converts the given markdown string to an HTML string. (<b class="deprecated">Deprecated:</b><span class="deprecated"> This method will be removed in 0.3.0, use <a href="#//api/name/htmlStringFromMarkdown">htmlStringFromMarkdown:</a> instead.</span>)</p>
+		<p>Converts the markdown in a file at the given url to an HTML string.</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (NSString *)htmlWithMarkdown</code></div>
+	<div class="method-subsection method-declaration"><code>+ (NSString *)convertMarkdownFileAtURL:(NSURL *)<em>url</em> error:(NSError **)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The url of the file whose contents you want.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The error that was encountered.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Returns an HTML string, or <code>nil</code> if the string couln&rsquo;t be converted.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in 0.2.0 or later.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/convertMarkdownFileAtPath:error:">+ convertMarkdownFileAtPath:error:</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">OCDiscount.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/convertMarkdownString:" title="convertMarkdownString:"></a>
+	<h3 class="subsubtitle method-title">convertMarkdownString:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Converts the markdown string to an HTML string.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)convertMarkdownString:(NSString *)<em>string</em></code></div>
 
     
 	
@@ -231,7 +336,7 @@
 	
 	<div class="method-subsection availability">
 		<h4 class="method-subtitle parameter-title">Availability</h4>
-		<p>Available in 0.1.0 and 0.2.0.</p>
+		<p>Available in 0.2.0 or later.</p>
 	</div>
 	
 	
@@ -244,13 +349,15 @@
 	
 	<div class="method-subsection declared-in-section">
 		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">NSString+Markdown.h</code><br />
+		<code class="declared-in-ref">OCDiscount.h</code><br />
 	</div>				
 	
 	
 </div>
 						
 					</div>
+					
+					
 					
 					
                     
