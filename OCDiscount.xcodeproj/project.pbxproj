@@ -65,6 +65,7 @@
 		9FA90252180976C800230823 /* NSString+Markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Markdown.h"; sourceTree = "<group>"; };
 		9FA90253180976C800230823 /* NSString+Markdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Markdown.m"; sourceTree = "<group>"; };
 		9FA902551809845B00230823 /* libdiscount.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdiscount.a; sourceTree = "<group>"; };
+		9FE67188180C2BF100CF23E4 /* AppleDoc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppleDoc.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +113,7 @@
 		9FA9022E180975E800230823 = {
 			isa = PBXGroup;
 			children = (
+				9FE67188180C2BF100CF23E4 /* AppleDoc.md */,
 				9FA9023C180975E800230823 /* OCDiscount */,
 				9FA1AB241809B50C002A3D8C /* OCDiscount Tests */,
 				9FA90239180975E800230823 /* Frameworks */,
@@ -445,6 +447,7 @@
 				9FA1AB301809B50C002A3D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FA90232180975E800230823 /* Build configuration list for PBXProject "OCDiscount" */ = {
 			isa = XCConfigurationList;

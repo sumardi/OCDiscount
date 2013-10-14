@@ -1,17 +1,10 @@
 # Discount Markdown Processor for iOS and OS X
 
-## Overview [![Build Status](https://travis-ci.org/sumardi/OCDiscount.png)](https://travis-ci.org/sumardi/OCDiscount)
-
 Discount is an implementation of John Gruber's Markdown markup language in C. It
-implements all of the language described in [the markdown syntax document][1] and
-passes the [Markdown 1.0 test suite][2].
+implements all of the language described in [the markdown syntax document](http://daringfireball.net/projects/markdown/syntax) and
+passes the [Markdown 1.0 test suite](http://daringfireball.net/projects/downloads/MarkdownTest_1.0.zip).
 
-Discount was developed by [David Loren Parsons][3]. `OCDiscount` is created and maintained by [Sumardi Shukor][4].
-
-[1]: http://daringfireball.net/projects/markdown/syntax
-[2]: http://daringfireball.net/projects/downloads/MarkdownTest_1.0.zip
-[3]: http://www.pell.portland.or.us/~orc
-[4]: https://twitter.com/sumardi
+Discount was developed by [David Loren Parsons](http://www.pell.portland.or.us/~orc). `OCDiscount` is created and maintained by [Sumardi Shukor](https://twitter.com/sumardi).
 
 ## Requirements
 
@@ -26,18 +19,14 @@ The `libdiscount.a` static library must be linked into the application target fo
 
 ## Installation
 
-[CocoaPods][5] is the recommended way to add `OCDiscount` to your project.  
+[CocoaPods](http://www.cocoapods.org) is the recommended way to add `OCDiscount` to your project.
 
-Here's an example podfile that installs `OCDiscount`. 
-
-[5]: http://www.cocoapods.org
+Here's an example podfile that installs `OCDiscount`.
 
 ### Podfile
 
-```ruby
-platform :osx, '10.8'
-pod 'OCDiscount', '~> 0.1.0'
-```
+    platform :osx, '10.8'
+    pod 'OCDiscount', '~> 0.1.0'
 
 Then run `pod install`.
 
@@ -45,17 +34,13 @@ Then run `pod install`.
 
 Depending on how you configure your project you may need to `#import` either `<OCDiscount/NSString+Markdown.h>` or `"NSString+Markdown.h"`.
 
-```objective-c
-NSString *test = @"*Hello* from **markdown**!";
+    NSString *test = @"*Hello* from **markdown**!";
 
-NSLog(@"%@", [markdown htmlWithMarkdown]);
-```
-
+    NSLog(@"%@", [markdown htmlWithMarkdown]);
+    
 ## Support
 
-Bugs and feature request are tracked on [Github][6].
-
-[6]: https://github.com/sumardi/OCDiscount/issues.
+Bugs and feature request are tracked on [Github](https://github.com/sumardi/OCDiscount/issues).
 
 ## License 
 
