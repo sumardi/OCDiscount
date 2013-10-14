@@ -17,6 +17,8 @@ The `libdiscount.a` static library must be linked into the application target fo
 1. Open the Link Binary With Libraries section.
 1. Click the Add button (+) to add `libdiscount.a` library.
 
+**NOTICE:** Ignore these steps if you are using [CocoaPods](http://www.cocoapods.org).
+
 ## Installation
 
 [CocoaPods](http://www.cocoapods.org) is the recommended way to add `OCDiscount` to your project.
@@ -32,12 +34,12 @@ Then run `pod install`.
 
 ## Usage
 
-Depending on how you configure your project you may need to `#import` either `<OCDiscount/NSString+Markdown.h>` or `"NSString+Markdown.h"`.
+Depending on how you configure your project you may need to `#import` either `<OCDiscount/OCDiscount.h>` or `"OCDiscount.h"`.
 
     NSString *test = @"*Hello* from **markdown**!";
 
-    NSLog(@"%@", [markdown htmlWithMarkdown]);
-    
+    NSLog(@"%@", [markdown htmlStringFromMarkdown]);
+
 ## Support
 
 Bugs and feature request are tracked on [Github](https://github.com/sumardi/OCDiscount/issues).

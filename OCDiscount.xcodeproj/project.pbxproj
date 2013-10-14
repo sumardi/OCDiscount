@@ -18,6 +18,9 @@
 		9FA90242180975E800230823 /* OCDiscount.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9FA90241180975E800230823 /* OCDiscount.1 */; };
 		9FA90254180976C800230823 /* NSString+Markdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA90253180976C800230823 /* NSString+Markdown.m */; };
 		9FA902561809845B00230823 /* libdiscount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA902551809845B00230823 /* libdiscount.a */; };
+		9FE6718B180C3C1F00CF23E4 /* OCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6718A180C3C1F00CF23E4 /* OCDiscount.m */; };
+		9FE6718C180C3C1F00CF23E4 /* OCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6718A180C3C1F00CF23E4 /* OCDiscount.m */; };
+		9FE67192180C4B0B00CF23E4 /* test.md in Resources */ = {isa = PBXBuildFile; fileRef = 9FE67191180C4B0B00CF23E4 /* test.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		9FA90253180976C800230823 /* NSString+Markdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Markdown.m"; sourceTree = "<group>"; };
 		9FA902551809845B00230823 /* libdiscount.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdiscount.a; sourceTree = "<group>"; };
 		9FE67188180C2BF100CF23E4 /* AppleDoc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppleDoc.md; sourceTree = "<group>"; };
+		9FE67189180C3C1F00CF23E4 /* OCDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDiscount.h; sourceTree = "<group>"; };
+		9FE6718A180C3C1F00CF23E4 /* OCDiscount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDiscount.m; sourceTree = "<group>"; };
+		9FE67191180C4B0B00CF23E4 /* test.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 			children = (
 				9FA1AB2A1809B50C002A3D8C /* OCDiscount_Tests.m */,
 				9FA1AB251809B50C002A3D8C /* Supporting Files */,
+				9FE67191180C4B0B00CF23E4 /* test.md */,
 			);
 			path = "OCDiscount Tests";
 			sourceTree = "<group>";
@@ -146,6 +153,8 @@
 				9FA9024A1809766C00230823 /* discount */,
 				9FA90252180976C800230823 /* NSString+Markdown.h */,
 				9FA90253180976C800230823 /* NSString+Markdown.m */,
+				9FE67189180C3C1F00CF23E4 /* OCDiscount.h */,
+				9FE6718A180C3C1F00CF23E4 /* OCDiscount.m */,
 				9FA9023D180975E800230823 /* main.m */,
 				9FA90241180975E800230823 /* OCDiscount.1 */,
 				9FA9023F180975E800230823 /* Supporting Files */,
@@ -250,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE67192180C4B0B00CF23E4 /* test.md in Resources */,
 				9FA1AB291809B50C002A3D8C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +273,7 @@
 			files = (
 				9FA1AB341809B541002A3D8C /* NSString+Markdown.m in Sources */,
 				9FA1AB2B1809B50C002A3D8C /* OCDiscount_Tests.m in Sources */,
+				9FE6718C180C3C1F00CF23E4 /* OCDiscount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +283,7 @@
 			files = (
 				9FA90254180976C800230823 /* NSString+Markdown.m in Sources */,
 				9FA9023E180975E800230823 /* main.m in Sources */,
+				9FE6718B180C3C1F00CF23E4 /* OCDiscount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,16 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSString+Markdown.h"
+#import "OCDiscount.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        NSString *markdown = @"`php code`";
+        NSString *markdown = nil;
         
-        NSLog(@"%@", [markdown htmlWithMarkdown]);
+        NSLog(@"HTML string => %@", [OCDiscount convertMarkdownString:markdown]);
     }
     return 0;
 }

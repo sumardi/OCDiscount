@@ -38,12 +38,12 @@ Then run `pod install`.
 
 ## Usage
 
-Depending on how you configure your project you may need to `#import` either `<OCDiscount/NSString+Markdown.h>` or `"NSString+Markdown.h"`.
+Depending on how you configure your project you may need to `#import` either `<OCDiscount/OCDiscount.h>` or `"OCDiscount.h"`.
 
 ```objective-c
 NSString *test = @"*Hello* from **markdown**!";
 
-NSLog(@"%@", [markdown htmlWithMarkdown]);
+NSLog(@"%@", [markdown htmlStringFromMarkdown]);
 ```
 
 ## Support
