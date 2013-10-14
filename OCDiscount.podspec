@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name     = 'OCDiscount'
-  s.version  = '0.1.0'
+  s.version  = '0.2.0'
   s.license  = 'MIT'
   s.summary  = 'Discount Markdown Processor for iOS and OS X'
   s.homepage = 'https://www.github.com/sumardi/OCDiscount'
   s.author   = { 'Sumardi Shukor' => 'me@sumardi.net' }
-  s.source   = { :git => 'https://github.com/sumardi/OCDiscount.git', :tag => '0.1.0' }
+  s.source   = { :git => 'https://github.com/sumardi/OCDiscount.git', :tag => '0.2.0' }
   s.ios.deployment_target = '5.0'
   s.ios.frameworks = 'Foundation'
   s.ios.source_files = 'OCDiscount/*.{h,m}'
