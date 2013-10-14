@@ -31,7 +31,7 @@ Here's an example podfile that installs `OCDiscount`.
 
 ```ruby
 platform :osx, '10.8'
-pod 'OCDiscount', '~> 0.1.0'
+pod 'OCDiscount', '~> 0.2.0'
 ```
 
 Then run `pod install`.
