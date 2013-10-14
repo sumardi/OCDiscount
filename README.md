@@ -19,7 +19,7 @@ The `libdiscount.a` static library must be linked into the application target fo
 1. Open the Link Binary With Libraries section.
 1. Click the Add button (+) to add `libdiscount.a` library.
 
-> Ignore this steps if you are using [CocoaPods][5].
+> Ignore these steps if you are using [CocoaPods][5].
 
 ## Installation
 
