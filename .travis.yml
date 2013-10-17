@@ -3,4 +3,4 @@ before_install:
     - brew update
     - brew remove xctool
     - brew install xctool
-script: xctool -project OCDiscount.xcodeproj -scheme OCDiscount test
+script: xctool -project OCDiscount.xcodeproj -scheme OCDiscountTests test
