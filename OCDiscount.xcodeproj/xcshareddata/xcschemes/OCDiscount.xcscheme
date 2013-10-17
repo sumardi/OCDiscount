@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0500"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9FA90236180975E800230823"
+               BuildableName = "OCDiscount"
+               BlueprintName = "OCDiscount"
+               ReferencedContainer = "container:OCDiscount.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9FA1AB201809B50C002A3D8C"
+               BuildableName = "OCDiscount Tests.xctest"
+               BlueprintName = "OCDiscount Tests"
+               ReferencedContainer = "container:OCDiscount.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9FA90236180975E800230823"
+            BuildableName = "OCDiscount"
+            BlueprintName = "OCDiscount"
+            ReferencedContainer = "container:OCDiscount.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "/usr/local/bin/appledoc \&#10;--project-name &quot;${PROJECT_NAME}&quot; \&#10;--project-company &quot;Sumardi Shukor&quot; \&#10;--company-id &quot;com.sumardi&quot; \&#10;--output &quot;~/AppleDocs/${PROJECT_NAME}&quot; \&#10;--install-docset \&#10;--logformat xcode \&#10;--keep-undocumented-objects \&#10;--keep-undocumented-members \&#10;--keep-intermediate-files \&#10;--no-repeat-first-par \&#10;--no-warn-invalid-crossref \&#10;--merge-categories \&#10;--exit-threshold 2 \&#10;--docset-platform-family iphoneos \&#10;--ignore &quot;*.m&quot; \&#10;--include &quot;${PROJECT_DIR}/${PROJECT_NAME}/Documentation/Images&quot; \&#10;--ignore &quot;LoadableCategory.h&quot; \&#10;--index-desc &quot;${PROJECT_DIR}/AppleDoc.md&quot; \&#10;&quot;${PROJECT_DIR}/${PROJECT_NAME}&quot;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "9FA90236180975E800230823"
+                     BuildableName = "OCDiscount"
+                     BlueprintName = "OCDiscount"
+                     ReferencedContainer = "container:OCDiscount.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9FA90236180975E800230823"
+            BuildableName = "OCDiscount"
+            BlueprintName = "OCDiscount"
+            ReferencedContainer = "container:OCDiscount.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9FA90236180975E800230823"
+            BuildableName = "OCDiscount"
+            BlueprintName = "OCDiscount"
+            ReferencedContainer = "container:OCDiscount.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
