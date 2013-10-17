@@ -1,22 +1,22 @@
 //
-//  OCDiscount_Tests.m
-//  OCDiscount Tests
+//  OSXTests.m
+//  OSXTests
 //
-//  Created by Sumardi Shukor on 10/13/13.
+//  Created by Sumardi Shukor on 10/17/13.
 //  Copyright (c) 2013 Software Machine Development. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 #import "OCDiscount.h"
 
-@interface OCDiscount_Tests : XCTestCase {
+@interface OSXTests : XCTestCase {
     NSString *markdownString;
     NSString *expectedResult;
 }
 
 @end
 
-@implementation OCDiscount_Tests
+@implementation OSXTests
 
 // This method is called before the invocation of each test method in the class.
 - (void)setUp
@@ -40,14 +40,14 @@
 
 - (void)testConvertingMarkdownFromPath
 {
-    NSString *path = [[NSBundle bundleForClass:NSClassFromString(@"OCDiscount_Tests")] pathForResource:@"test" ofType:@"md"];
+    NSString *path = [[NSBundle bundleForClass:NSClassFromString(@"OSXTests")] pathForResource:@"test" ofType:@"md"];
     NSError *error;
     XCTAssertTrue([[OCDiscount convertMarkdownFileAtPath:path error:&error] isEqualToString:expectedResult], @"Markdown does could not be converted.");
 }
 
 - (void)testConvertingMarkdownFromURL
 {
-    NSURL *url = [[NSBundle bundleForClass:NSClassFromString(@"OCDiscount_Tests")] URLForResource:@"test" withExtension:@"md"];
+    NSURL *url = [[NSBundle bundleForClass:NSClassFromString(@"OSXTests")] URLForResource:@"test" withExtension:@"md"];
     NSError *error;
     XCTAssertTrue([[OCDiscount convertMarkdownFileAtURL:url error:&error] isEqualToString:expectedResult], @"Markdown does could not be converted.");
 }

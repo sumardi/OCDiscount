@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FA1AB291809B50C002A3D8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FA1AB271809B50C002A3D8C /* InfoPlist.strings */; };
-		9FA1AB2B1809B50C002A3D8C /* OCDiscount_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1AB2A1809B50C002A3D8C /* OCDiscount_Tests.m */; };
-		9FA1AB331809B52A002A3D8C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA1AB321809B52A002A3D8C /* XCTest.framework */; };
-		9FA1AB341809B541002A3D8C /* NSString+Markdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA90253180976C800230823 /* NSString+Markdown.m */; };
-		9FA1AB351809B5B3002A3D8C /* libdiscount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA902551809845B00230823 /* libdiscount.a */; };
-		9FA1AB361809B5B8002A3D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA9023A180975E800230823 /* Foundation.framework */; };
+		9F4CF2C118101742005FF9BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA1AB321809B52A002A3D8C /* XCTest.framework */; };
+		9F4CF2C718101742005FF9BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F4CF2C518101742005FF9BA /* InfoPlist.strings */; };
+		9F4CF2C918101742005FF9BA /* OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4CF2C818101742005FF9BA /* OSXTests.m */; };
+		9F4CF2E718101798005FF9BA /* libdiscount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA902551809845B00230823 /* libdiscount.a */; };
+		9F4CF2E81810179F005FF9BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA9023A180975E800230823 /* Foundation.framework */; };
+		9F4CF2EC181018AE005FF9BA /* OCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6718A180C3C1F00CF23E4 /* OCDiscount.m */; };
+		9F4CF2EF181018DB005FF9BA /* test.md in Resources */ = {isa = PBXBuildFile; fileRef = 9F4CF2EE181018DB005FF9BA /* test.md */; };
+		9F4CF2F01810196F005FF9BA /* NSString+Markdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA90253180976C800230823 /* NSString+Markdown.m */; };
 		9FA9023B180975E800230823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA9023A180975E800230823 /* Foundation.framework */; };
 		9FA9023E180975E800230823 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9023D180975E800230823 /* main.m */; };
 		9FA90242180975E800230823 /* OCDiscount.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9FA90241180975E800230823 /* OCDiscount.1 */; };
 		9FA90254180976C800230823 /* NSString+Markdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA90253180976C800230823 /* NSString+Markdown.m */; };
 		9FA902561809845B00230823 /* libdiscount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA902551809845B00230823 /* libdiscount.a */; };
 		9FE6718B180C3C1F00CF23E4 /* OCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6718A180C3C1F00CF23E4 /* OCDiscount.m */; };
-		9FE6718C180C3C1F00CF23E4 /* OCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6718A180C3C1F00CF23E4 /* OCDiscount.m */; };
-		9FE67192180C4B0B00CF23E4 /* test.md in Resources */ = {isa = PBXBuildFile; fileRef = 9FE67191180C4B0B00CF23E4 /* test.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9FA1AB2D1809B50C002A3D8C /* PBXContainerItemProxy */ = {
+		9F4CF2CB18101742005FF9BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9FA9022F180975E800230823 /* Project object */;
 			proxyType = 1;
@@ -47,11 +47,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9FA1AB211809B50C002A3D8C /* OCDiscount Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCDiscount Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FA1AB261809B50C002A3D8C /* OCDiscount Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCDiscount Tests-Info.plist"; sourceTree = "<group>"; };
-		9FA1AB281809B50C002A3D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9FA1AB2A1809B50C002A3D8C /* OCDiscount_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDiscount_Tests.m; sourceTree = "<group>"; };
-		9FA1AB2C1809B50C002A3D8C /* OCDiscount Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCDiscount Tests-Prefix.pch"; sourceTree = "<group>"; };
+		9F4CF2C018101742005FF9BA /* OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4CF2C418101742005FF9BA /* OSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXTests-Info.plist"; sourceTree = "<group>"; };
+		9F4CF2C618101742005FF9BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F4CF2C818101742005FF9BA /* OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXTests.m; sourceTree = "<group>"; };
+		9F4CF2CA18101742005FF9BA /* OSXTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXTests-Prefix.pch"; sourceTree = "<group>"; };
+		9F4CF2D71810177F005FF9BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9F4CF2EA181017C4005FF9BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9F4CF2EE181018DB005FF9BA /* test.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.md; sourceTree = "<group>"; };
 		9FA1AB321809B52A002A3D8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9FA90237180975E800230823 /* OCDiscount */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCDiscount; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA9023A180975E800230823 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,17 +74,16 @@
 		9FE67188180C2BF100CF23E4 /* AppleDoc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppleDoc.md; sourceTree = "<group>"; };
 		9FE67189180C3C1F00CF23E4 /* OCDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDiscount.h; sourceTree = "<group>"; };
 		9FE6718A180C3C1F00CF23E4 /* OCDiscount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDiscount.m; sourceTree = "<group>"; };
-		9FE67191180C4B0B00CF23E4 /* test.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9FA1AB1E1809B50C002A3D8C /* Frameworks */ = {
+		9F4CF2BD18101742005FF9BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FA1AB361809B5B8002A3D8C /* Foundation.framework in Frameworks */,
-				9FA1AB351809B5B3002A3D8C /* libdiscount.a in Frameworks */,
-				9FA1AB331809B52A002A3D8C /* XCTest.framework in Frameworks */,
+				9F4CF2E81810179F005FF9BA /* Foundation.framework in Frameworks */,
+				9F4CF2E718101798005FF9BA /* libdiscount.a in Frameworks */,
+				9F4CF2C118101742005FF9BA /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,22 +99,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9FA1AB241809B50C002A3D8C /* OCDiscount Tests */ = {
+		9F4CF2C218101742005FF9BA /* OSXTests */ = {
 			isa = PBXGroup;
 			children = (
-				9FA1AB2A1809B50C002A3D8C /* OCDiscount_Tests.m */,
-				9FA1AB251809B50C002A3D8C /* Supporting Files */,
-				9FE67191180C4B0B00CF23E4 /* test.md */,
+				9F4CF2C818101742005FF9BA /* OSXTests.m */,
+				9F4CF2EE181018DB005FF9BA /* test.md */,
+				9F4CF2C318101742005FF9BA /* Supporting Files */,
 			);
-			path = "OCDiscount Tests";
+			path = OSXTests;
 			sourceTree = "<group>";
 		};
-		9FA1AB251809B50C002A3D8C /* Supporting Files */ = {
+		9F4CF2C318101742005FF9BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9FA1AB261809B50C002A3D8C /* OCDiscount Tests-Info.plist */,
-				9FA1AB271809B50C002A3D8C /* InfoPlist.strings */,
-				9FA1AB2C1809B50C002A3D8C /* OCDiscount Tests-Prefix.pch */,
+				9F4CF2C418101742005FF9BA /* OSXTests-Info.plist */,
+				9F4CF2C518101742005FF9BA /* InfoPlist.strings */,
+				9F4CF2CA18101742005FF9BA /* OSXTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,7 +124,7 @@
 			children = (
 				9FE67188180C2BF100CF23E4 /* AppleDoc.md */,
 				9FA9023C180975E800230823 /* OCDiscount */,
-				9FA1AB241809B50C002A3D8C /* OCDiscount Tests */,
+				9F4CF2C218101742005FF9BA /* OSXTests */,
 				9FA90239180975E800230823 /* Frameworks */,
 				9FA90238180975E800230823 /* Products */,
 			);
@@ -132,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				9FA90237180975E800230823 /* OCDiscount */,
-				9FA1AB211809B50C002A3D8C /* OCDiscount Tests.xctest */,
+				9F4CF2C018101742005FF9BA /* OSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,9 +142,11 @@
 		9FA90239180975E800230823 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F4CF2EA181017C4005FF9BA /* UIKit.framework */,
 				9FA1AB321809B52A002A3D8C /* XCTest.framework */,
 				9FA902551809845B00230823 /* libdiscount.a */,
 				9FA9023A180975E800230823 /* Foundation.framework */,
+				9F4CF2D71810177F005FF9BA /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,22 +191,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FA1AB201809B50C002A3D8C /* OCDiscount Tests */ = {
+		9F4CF2BF18101742005FF9BA /* OSXTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FA1AB311809B50C002A3D8C /* Build configuration list for PBXNativeTarget "OCDiscount Tests" */;
+			buildConfigurationList = 9F4CF2CD18101742005FF9BA /* Build configuration list for PBXNativeTarget "OSXTests" */;
 			buildPhases = (
-				9FA1AB1D1809B50C002A3D8C /* Sources */,
-				9FA1AB1E1809B50C002A3D8C /* Frameworks */,
-				9FA1AB1F1809B50C002A3D8C /* Resources */,
+				9F4CF2BC18101742005FF9BA /* Sources */,
+				9F4CF2BD18101742005FF9BA /* Frameworks */,
+				9F4CF2BE18101742005FF9BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9FA1AB2E1809B50C002A3D8C /* PBXTargetDependency */,
+				9F4CF2CC18101742005FF9BA /* PBXTargetDependency */,
 			);
-			name = "OCDiscount Tests";
-			productName = "OCDiscount Tests";
-			productReference = 9FA1AB211809B50C002A3D8C /* OCDiscount Tests.xctest */;
+			name = OSXTests;
+			productName = OSXTests;
+			productReference = 9F4CF2C018101742005FF9BA /* OSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		9FA90236180975E800230823 /* OCDiscount */ = {
@@ -231,7 +235,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Software Machine Development";
 				TargetAttributes = {
-					9FA1AB201809B50C002A3D8C = {
+					9F4CF2BF18101742005FF9BA = {
 						TestTargetID = 9FA90236180975E800230823;
 					};
 				};
@@ -249,31 +253,31 @@
 			projectRoot = "";
 			targets = (
 				9FA90236180975E800230823 /* OCDiscount */,
-				9FA1AB201809B50C002A3D8C /* OCDiscount Tests */,
+				9F4CF2BF18101742005FF9BA /* OSXTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9FA1AB1F1809B50C002A3D8C /* Resources */ = {
+		9F4CF2BE18101742005FF9BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FE67192180C4B0B00CF23E4 /* test.md in Resources */,
-				9FA1AB291809B50C002A3D8C /* InfoPlist.strings in Resources */,
+				9F4CF2EF181018DB005FF9BA /* test.md in Resources */,
+				9F4CF2C718101742005FF9BA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9FA1AB1D1809B50C002A3D8C /* Sources */ = {
+		9F4CF2BC18101742005FF9BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FA1AB341809B541002A3D8C /* NSString+Markdown.m in Sources */,
-				9FA1AB2B1809B50C002A3D8C /* OCDiscount_Tests.m in Sources */,
-				9FE6718C180C3C1F00CF23E4 /* OCDiscount.m in Sources */,
+				9F4CF2F01810196F005FF9BA /* NSString+Markdown.m in Sources */,
+				9F4CF2EC181018AE005FF9BA /* OCDiscount.m in Sources */,
+				9F4CF2C918101742005FF9BA /* OSXTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,18 +294,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9FA1AB2E1809B50C002A3D8C /* PBXTargetDependency */ = {
+		9F4CF2CC18101742005FF9BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9FA90236180975E800230823 /* OCDiscount */;
-			targetProxy = 9FA1AB2D1809B50C002A3D8C /* PBXContainerItemProxy */;
+			targetProxy = 9F4CF2CB18101742005FF9BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9FA1AB271809B50C002A3D8C /* InfoPlist.strings */ = {
+		9F4CF2C518101742005FF9BA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9FA1AB281809B50C002A3D8C /* en */,
+				9F4CF2C618101742005FF9BA /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -309,7 +313,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9FA1AB2F1809B50C002A3D8C /* Debug */ = {
+		9F4CF2CE18101742005FF9BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -317,12 +321,12 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OCDiscount Tests/OCDiscount Tests-Prefix.pch";
+				GCC_PREFIX_HEADER = "OSXTests/OSXTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "OCDiscount Tests/OCDiscount Tests-Info.plist";
+				INFOPLIST_FILE = "OSXTests/OSXTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/smd/Workspace/GithubClone/OCDiscount,
@@ -333,7 +337,7 @@
 			};
 			name = Debug;
 		};
-		9FA1AB301809B50C002A3D8C /* Release */ = {
+		9F4CF2CF18101742005FF9BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -341,8 +345,8 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OCDiscount Tests/OCDiscount Tests-Prefix.pch";
-				INFOPLIST_FILE = "OCDiscount Tests/OCDiscount Tests-Info.plist";
+				GCC_PREFIX_HEADER = "OSXTests/OSXTests-Prefix.pch";
+				INFOPLIST_FILE = "OSXTests/OSXTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/smd/Workspace/GithubClone/OCDiscount,
@@ -452,14 +456,13 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FA1AB311809B50C002A3D8C /* Build configuration list for PBXNativeTarget "OCDiscount Tests" */ = {
+		9F4CF2CD18101742005FF9BA /* Build configuration list for PBXNativeTarget "OSXTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FA1AB2F1809B50C002A3D8C /* Debug */,
-				9FA1AB301809B50C002A3D8C /* Release */,
+				9F4CF2CE18101742005FF9BA /* Debug */,
+				9F4CF2CF18101742005FF9BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		9FA90232180975E800230823 /* Build configuration list for PBXProject "OCDiscount" */ = {
 			isa = XCConfigurationList;

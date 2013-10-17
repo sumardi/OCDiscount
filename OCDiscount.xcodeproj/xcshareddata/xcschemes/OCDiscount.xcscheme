@@ -38,6 +38,26 @@
                ReferencedContainer = "container:OCDiscount.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9F4CF2BF18101742005FF9BA"
+               BuildableName = "OSXTests.xctest"
+               BlueprintName = "OSXTests"
+               ReferencedContainer = "container:OCDiscount.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9F4CF2D31810177F005FF9BA"
+               BuildableName = "iOSTests.xctest"
+               BlueprintName = "iOSTests"
+               ReferencedContainer = "container:OCDiscount.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
