@@ -1,5 +1,6 @@
 language: objective-c
 before_install:
     - brew update
+    - brew remove xctool
     - brew install xctool
 script: xctool -project OCDiscount.xcworkspace -scheme OCDiscount test
