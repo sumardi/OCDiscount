@@ -19,6 +19,5 @@ Pod::Spec.new do |s|
     d.source_files = 'OCDiscount/discount/*.{h}'
     d.preserve_paths = 'libdiscount.a'
     d.library = 'discount'
-    d.vendored_libraries = 'libdiscount.a'
   end
 end
