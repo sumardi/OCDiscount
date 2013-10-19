@@ -329,9 +329,10 @@
 				INFOPLIST_FILE = "OSXTests/OSXTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/smd/Workspace/GithubClone/OCDiscount,
+					"$(SRCROOT)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -349,7 +350,7 @@
 				INFOPLIST_FILE = "OSXTests/OSXTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/smd/Workspace/GithubClone/OCDiscount,
+					"$(SRCROOT)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,7 +433,7 @@
 				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/smd/Workspace/GithubClone/OCDiscount,
+					"$(SRCROOT)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +447,7 @@
 				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/smd/Workspace/GithubClone/OCDiscount,
+					"$(SRCROOT)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,6 +464,7 @@
 				9F4CF2CF18101742005FF9BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FA90232180975E800230823 /* Build configuration list for PBXProject "OCDiscount" */ = {
 			isa = XCConfigurationList;

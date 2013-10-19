@@ -3,4 +3,4 @@ before_install:
     - brew update
     - brew uninstall xctool && brew install xctool --HEAD
     - cd OSXTests && pod install && cd $TRAVIS_BUILD_DIR
-script: xctool -project OCDiscount.xcodeproj -scheme OSXTests -sdk macosx test
+script: xctool -project OCDiscount.xcodeproj -scheme OSXTests -sdk macosx test -test-sdk macosx
