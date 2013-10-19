@@ -1,0 +1,12 @@
+xcodeproj '../OCDiscount'
+inhibit_all_warnings!
+
+def import_pods  
+  pod 'OCDiscount', :path => '../'
+end
+
+target :osx do
+  platform :osx, '10.8'
+  link_with 'OSXTests'
+  import_pods
+end
